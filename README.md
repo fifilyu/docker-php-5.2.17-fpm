@@ -65,7 +65,9 @@ PHP 模块配置文件:
 [NOTE]
 如果要启用或禁用模块，请直接修改 `php.d` 下的 `.ini` 文件。
 
-PHP-FPM 配置文件:: /usr/local/php-5.2.17/etc/php-fpm.conf
+PHP-FPM 配置文件:
+
+`/usr/local/php-5.2.17/etc/php-fpm.conf`
 
 #### 4.1.2 Nginx
 
@@ -80,7 +82,9 @@ Nginx Host 配置文件:
 [NOTE]
 `/etc/nginx/conf.d/example.com.conf` 是默认创建的 Host ，监听 `8080` 端口。
 
-Web 目录:: /data/web
+Web 目录:
+
+`/data/web`
 
 [NOTE]
 `/data/web/example.com` 目录是默认站点的文件目录。
